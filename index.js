@@ -1,9 +1,3 @@
-#!/usr/bin/env node
-
-function main() {
-   console.log("npx works");
-}
-
-if (require.main === module) {
-   main();
+exports.write_file = function() {
+	console.log("wrote to file");
 }
